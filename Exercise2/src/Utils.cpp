@@ -77,7 +77,7 @@ double DotProduct(const size_t& n, const double* const& w,
 	for(unsigned int i = 0; i<n; i++)
     {
 		DotPr += w[i]*r[i];
-	}
+    }
    return DotPr;
 }
  /* in this function, I calculate the total value of the portfolio, applying the formula given 
