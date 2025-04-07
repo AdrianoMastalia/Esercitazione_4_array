@@ -13,7 +13,7 @@ double DotProduct(const size_t& n, const double* const& w,
 bool ExportResult(const string& outputFilePath,
                   const size_t& n, const double* const& w,
                   const double* const& r,const double& S,
-				  const double& rate, const double& V);
+		  const double& rate, const double& V);
 
 double total_value(const double &r, const double &S);
 
