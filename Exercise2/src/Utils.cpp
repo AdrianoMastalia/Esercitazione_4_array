@@ -12,7 +12,7 @@ in the function body and in the main, I'll allocate memory for w and r, to memor
 files in the two vectors, without knowing the length of the file (which is not a compile-time known constant) */
 
 bool ImportVectors(const string& inputFilePath, size_t& n, 
-				   double&S, double*& w, double*& r)
+		   double&S, double*& w, double*& r)
 {	
 	ifstream file(inputFilePath);
 	if(file.fail())
