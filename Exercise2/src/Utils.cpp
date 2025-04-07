@@ -94,7 +94,7 @@ optimal in terms of memory */
 
 bool ExportResult(const string& outputFilePath, const size_t& n,
                   const double* const& w, const double* const& r,
-                  const double &S, const double rate, const double &V)
+                  const double& S, const double& rate, const double& V)
 {
     ofstream file;
     file.open(outputFilePath);
